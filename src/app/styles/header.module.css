@@ -1,0 +1,15 @@
+
+.nav_link {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.nav_link:hover {
+    cursor: pointer;
+}
+
+.auth_link {
+    color: #fff;
+    font-size: 14px;
+}
