@@ -24,7 +24,7 @@ const Contact = () => {
             paddingTop={"80px"}
           >
             <Text
-              fontWeight={"semibold"}
+              fontWeight={"bold"}
               fontSize={"14px"}
             >Contact</Text>
           </Flex>
@@ -38,8 +38,9 @@ const Contact = () => {
               <Box as={Flex} gap={2} alignItems={"center"} mb={5}>
                   <FontAwesomeIcon 
                     icon={faLocationDot} 
-                    color={"#129576"}
-                    width={17}
+                    color={"rgb(0, 194, 157)"}
+                    fontSize={"18px"}
+                    width={18}
                     />
                   <Text>Headquarters</Text>
               </Box>
@@ -53,8 +54,9 @@ const Contact = () => {
               <Box as={Flex} gap={2} alignItems={"center"} mb={5}>
                 <FontAwesomeIcon 
                     icon={faEnvelope} 
-                    color={"#129576"}
-                    width={17}
+                    color={"rgb(0, 194, 157)"}
+                    fontSize={"18px"}
+                    width={18}
                     />
                   <Text>Email</Text>
               </Box>

@@ -1,8 +1,8 @@
 
 .nav_link {
     color: #fff;
-    font-size: 14px;
-    font-weight: 600;
+    font-size: 12px;
+    font-weight: bold;
 }
 
 .nav_link:hover {
@@ -11,5 +11,5 @@
 
 .auth_link {
     color: #fff;
-    font-size: 14px;
+    font-size: 12px;
 }

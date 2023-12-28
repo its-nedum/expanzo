@@ -14,8 +14,9 @@ const Footer = () => {
         justifyContent={"space-around"}
         alignItems={"center"}
         color={"#000"}
-        fontWeight={"semibold"}
+        fontWeight={"bold"}
         paddingTop={"80px"}
+        fontSize={"16px"}
       >
         <Box >
           <Image 
