@@ -21,7 +21,7 @@ const Contact = () => {
         >
           <Flex
             justifyContent={"center"}
-            paddingTop={"80px"}
+            paddingTop={["40px", "80px"]}
           >
             <Text
               fontWeight={"bold"}
@@ -30,12 +30,13 @@ const Contact = () => {
           </Flex>
           <Flex 
             justifyContent={"center"} 
-            gap={40} 
+            gap={[10, 40]} 
             marginBottom={"30px"}
             fontSize={"14px"}
+            flexDirection={["column", "row"]}
             >
             <Box>
-              <Box as={Flex} gap={2} alignItems={"center"} mb={5}>
+              <Box as={Flex} gap={2} alignItems={"center"} mb={[2, 5]}>
                   <FontAwesomeIcon 
                     icon={faLocationDot} 
                     color={"rgb(0, 194, 157)"}
@@ -51,7 +52,7 @@ const Contact = () => {
               </Box>
             </Box>
             <Box>
-              <Box as={Flex} gap={2} alignItems={"center"} mb={5}>
+              <Box as={Flex} gap={2} alignItems={"center"} mb={[2, 5]}>
                 <FontAwesomeIcon 
                     icon={faEnvelope} 
                     color={"rgb(0, 194, 157)"}

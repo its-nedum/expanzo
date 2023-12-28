@@ -26,9 +26,9 @@ const MenuTabs = () => {
         MenuList.map((menu) => (
           <Tab 
             key={menu.id} 
-            fontSize={"18px"} 
+            fontSize={["14px", "18px"]} 
             fontWeight={"semibold"}
-            color={activeTab === menu.id ? "#129576" : "#000"}
+            color={activeTab === menu.id ? "rgb(0, 194, 157)" : "#000"}
             onClick={() => handleMenuChange(menu.id)}
             >{menu.name}</Tab>
         ))
@@ -37,14 +37,18 @@ const MenuTabs = () => {
     <TabIndicator
       marginTop="-1.5px"
       height="2px"
-      background="#129576"
+      background="rgb(0, 194, 157)"
       borderRadius="1px"
     />
     <TabPanels>
       {
         MenuList.map((menu) => (
           <TabPanel key={menu.id}>
-            <Text>{menu.name} tab</Text>
+            <Text 
+              fontSize={["14px", "18px"]}
+            >
+              {menu.name} tab
+            </Text>
           </TabPanel>
         ))
       }

@@ -15,8 +15,9 @@ const Footer = () => {
         alignItems={"center"}
         color={"#000"}
         fontWeight={"bold"}
-        paddingTop={"80px"}
-        fontSize={"16px"}
+        paddingTop={["30px", "80px"]}
+        fontSize={["14px", "16px"]}
+        flexDirection={["column", "row"]}
       >
         <Box >
           <Image 
@@ -25,7 +26,11 @@ const Footer = () => {
             width={180}
           />
         </Box>
-        <Box as={Flex} gap={10}>
+        <Box 
+          as={Flex} 
+          gap={10}
+          mt={["50px", "0px"]}
+          >
           <Text cursor={"pointer"}>CONTACTS</Text>
           <Text cursor={"pointer"}>PHONES</Text>
           <Text cursor={"pointer"}>TOP SEARCH</Text>
