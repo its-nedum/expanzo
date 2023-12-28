@@ -59,7 +59,7 @@ const Contact = () => {
                   <Text>Email</Text>
               </Box>
               <Box>
-                <Text>info@expanzo.com</Text>
+                <a href='mailto:info@expanzo.com'>info@expanzo.com</a>
               </Box>
             </Box>
           </Flex>
