@@ -15,6 +15,6 @@ Thank you
 
 
 **How to use**
-* Step 1: Download application files
-* Step 2: Install dependencies `npm install`
-* Step 3: Start app `npm run dev`
+*Step 1: Download application files
+*Step 2: Install dependencies `npm install`
+*Step 3: Start app `npm run dev`

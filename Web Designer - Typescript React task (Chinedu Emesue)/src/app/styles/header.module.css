@@ -1,0 +1,22 @@
+
+.nav_link {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.nav_link:hover {
+    cursor: pointer;
+}
+
+.auth_link {
+    color: #fff;
+    font-size: 12px;
+}
+
+.nav_link_mobile {
+    color: #000;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}  
