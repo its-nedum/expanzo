@@ -9,7 +9,7 @@ import {
     TabIndicator,
     Text
 } from '@chakra-ui/react'
-import { MenuList } from "../utils/data";
+import { MenuList } from "../layouts/data";
 
 const MenuTabs = () => {
   const [activeTab, setActiveTab] = useState(0);

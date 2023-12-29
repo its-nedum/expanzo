@@ -1,6 +1,6 @@
 import React from 'react';
-import Header from '../utils/Header';
-import Footer from '../utils/Footer';
+import Header from '../layouts/Header';
+import Footer from '../layouts/Footer';
 import { Box, Flex } from '@chakra-ui/react';
 import MenuTabs from './MenuTabs';
 import logo from "../../images/logo-expanzo-black.svg";

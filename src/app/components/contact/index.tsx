@@ -1,7 +1,7 @@
 "use client"
 import React from 'react';
-import Header from '../utils/Header';
-import Footer from '../utils/Footer';
+import Header from '../layouts/Header';
+import Footer from '../layouts/Footer';
 import { Box, Flex, Text } from '@chakra-ui/react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocationDot, faEnvelope} from '@fortawesome/free-solid-svg-icons';
@@ -21,7 +21,7 @@ const Contact = () => {
         >
           <Flex
             justifyContent={"center"}
-            paddingTop={["40px", "80px"]}
+            paddingTop={"80px"}
           >
             <Text
               fontWeight={"bold"}
@@ -33,10 +33,9 @@ const Contact = () => {
             gap={[10, 40]} 
             marginBottom={"30px"}
             fontSize={"14px"}
-            flexDirection={["column", "row"]}
             >
             <Box>
-              <Box as={Flex} gap={2} alignItems={"center"} mb={[2, 5]}>
+              <Box as={Flex} gap={2} alignItems={"center"} mb={5}>
                   <FontAwesomeIcon 
                     icon={faLocationDot} 
                     color={"rgb(0, 194, 157)"}
@@ -52,7 +51,7 @@ const Contact = () => {
               </Box>
             </Box>
             <Box>
-              <Box as={Flex} gap={2} alignItems={"center"} mb={[2, 5]}>
+              <Box as={Flex} gap={2} alignItems={"center"} mb={5}>
                 <FontAwesomeIcon 
                     icon={faEnvelope} 
                     color={"rgb(0, 194, 157)"}
