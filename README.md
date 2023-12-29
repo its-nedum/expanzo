@@ -12,3 +12,9 @@ Home Page and layout is on home.png image, contact page on contact.png in this a
 **Download the necessary files <https://cloud.logbookie.eu/s/f5zxqiZd27SJa27>**
 
 Thank you
+
+
+**How to use**
+*Step 1: Download application files
+*Step 2: Install dependencies `npm install`
+*Step 3: Start app `npm run dev`
