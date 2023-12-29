@@ -24,6 +24,14 @@ const Header = () => {
   const path = usePathname();
   
   const handleNavigation = (href: string) => router.push(href);
+
+  const iconStyle = {
+    width: "25px",
+    height:"25px",
+    color: "rgb(0, 194, 157)",
+    fontSize: "25px",
+    cursor: "pointer",
+  }
   
   return (
     <Box as={Flex}
@@ -37,10 +45,7 @@ const Header = () => {
           <Hide below='md'>
             <FontAwesomeIcon 
               icon={faBars} 
-              width={"25px"} 
-              height={"25px"}
-              color="rgb(0, 194, 157)" 
-              fontSize={"25px"}
+              style={iconStyle}
             />
             {
               NavMenus.map((menu) => (
@@ -54,10 +59,7 @@ const Header = () => {
               <PopoverTrigger>
                 <FontAwesomeIcon 
                   icon={faBars} 
-                  width={"25px"} 
-                  height={"25px"}
-                  color="rgb(0, 194, 157)" 
-                  fontSize={"25px"}
+                  style={iconStyle}
                 />
               </PopoverTrigger>
               <PopoverContent p={2} w={"170px"} background={"#fff"}>
